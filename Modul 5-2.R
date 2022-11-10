@@ -1,0 +1,5 @@
+quina = read.delim("clipboard")
+View(quina)
+str(quina)
+mean(quina$Penghasilan)
+t.test(quina$Penghasilan, mu=14500)

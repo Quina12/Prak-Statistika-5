@@ -1,0 +1,5 @@
+quina = read.delim("clipboard")
+View(quina)
+str(quina)
+mean(quina$Volume)
+t.test(quina$Volume, mu=10)
